@@ -1,9 +1,17 @@
 {
-  "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+  "extends": ["tslint-config-airbnb"],
   "linterOptions": {
     "exclude": [
       "config/**/*.js",
-      "node_modules/**/*.ts"
+      "node_modules/**/*.ts",
+      "src/assets/*",
+      "src/registerServiceWorker.ts"
     ]
+  },
+  "rules": {
+    "import-name": false,
+    "strict-boolean-expressions": false,
+    "trailing-comma": false,
+    "variable-name": false
   }
 }
