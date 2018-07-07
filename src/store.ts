@@ -1,7 +1,7 @@
 import { createStore, applyMiddleware, compose } from 'redux';
 import { responsiveStoreEnhancer } from 'redux-responsive';
 import thunk from 'redux-thunk';
-import rootReducer from './common/reducers';
+import rootReducer from './common/redux/reducers';
 
 export const composeFunc = () => {
   return process.env.NODE_ENV === 'development'
