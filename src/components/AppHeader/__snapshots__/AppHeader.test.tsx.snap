@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppHeader suite should match snapshot 1`] = `
+<header
+  className="App-header"
+>
+  <div
+    className="App-navigator"
+  >
+    <ul>
+      <li>
+        <Link
+          replace={false}
+          to="/"
+        >
+          Home
+        </Link>
+      </li>
+      <li>
+        <Link
+          replace={false}
+          to="/about"
+        >
+          About
+        </Link>
+      </li>
+      <li>
+        <Link
+          replace={false}
+          to="/topics"
+        >
+          Topics
+        </Link>
+      </li>
+    </ul>
+  </div>
+  <img
+    alt="logo"
+    className="App-logo"
+  />
+  <h1
+    className="App-title"
+  >
+    Welcome to React
+  </h1>
+</header>
+`;

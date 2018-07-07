@@ -2,21 +2,22 @@ import * as React from 'react';
 import * as Adapter from 'enzyme-adapter-react-16';
 import { configure, shallow, mount } from 'enzyme';
 import { shallowToJson } from 'enzyme-to-json';
-import App from './index';
+import Topics from './index';
 
-configure({ adapter: new Adapter() });
+const adapter = new Adapter();
+configure({ adapter });
 
-describe('App suite', () => {
+describe('Topics suite', () => {
   it('should match snapshot', () => {
-    const tree = shallow(<App />);
+    const tree = shallow(<Topics />);
     expect(shallowToJson(tree)).toMatchSnapshot();
   });
 
-  it('should be selectable by class .App', () => {
-    expect(shallow(<App />).is('.App')).toBe(true);
+  it('should be selectable by .Topics', () => {
+    expect(shallow(<Topics />).is('.Topics')).toBe(true);
   });
 
   it('should mount in a full DOM', () => {
-    expect(mount(<App />).find('.App').length).toBe(1);
+    expect(mount(<Topics />).find('.Topics').length).toBe(1);
   });
 });
