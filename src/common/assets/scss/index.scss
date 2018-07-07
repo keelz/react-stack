@@ -15,9 +15,7 @@ body {
 }
 
 .App-header {
-  background-color: #222;
-  height: 220px;
-  color: white;
+  height: 3rem;
 }
 
 .App-title {
@@ -30,11 +28,6 @@ body {
 
 .App-test {
   font-size: x-large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }
 
 .App-navigator {
@@ -60,4 +53,9 @@ body {
 
 .App-navigator ul li {
   margin-right: 15px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }

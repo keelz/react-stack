@@ -34,14 +34,5 @@ exports[`AppHeader suite should match snapshot 1`] = `
       </li>
     </ul>
   </div>
-  <img
-    alt="logo"
-    className="App-logo"
-  />
-  <h1
-    className="App-title"
-  >
-    Welcome to React
-  </h1>
 </header>
 `;

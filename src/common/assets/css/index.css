@@ -12,9 +12,7 @@ body {
   margin-top: 20px; }
 
 .App-header {
-  background-color: #222;
-  height: 220px;
-  color: white; }
+  height: 3rem; }
 
 .App-title {
   font-size: 1.5em; }
@@ -24,12 +22,6 @@ body {
 
 .App-test {
   font-size: x-large; }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg); }
-  to {
-    transform: rotate(360deg); } }
 
 .App-navigator {
   display: flex;
@@ -51,3 +43,9 @@ body {
 
 .App-navigator ul li {
   margin-right: 15px; }
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
