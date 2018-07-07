@@ -4,6 +4,6 @@ exports[`Home suite should match snapshot 1`] = `
 <div
   className="Home"
 >
-  home
+  Home
 </div>
 `;

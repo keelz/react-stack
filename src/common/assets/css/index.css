@@ -8,12 +8,12 @@ body {
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 80px; }
+  height: 80px;
+  margin-top: 20px; }
 
 .App-header {
   background-color: #222;
-  height: 150px;
-  padding: 20px;
+  height: 220px;
   color: white; }
 
 .App-title {
@@ -30,3 +30,24 @@ body {
     transform: rotate(0deg); }
   to {
     transform: rotate(360deg); } }
+
+.App-navigator {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: darkred;
+  align-items: center;
+  width: 100%;
+  height: 3rem; }
+
+.App-navigator a {
+  color: white; }
+
+.App-navigator ul {
+  display: flex;
+  align-content: flex-end;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0 10px; }
+
+.App-navigator ul li {
+  margin-right: 15px; }
